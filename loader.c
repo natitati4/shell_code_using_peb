@@ -8,7 +8,7 @@ int main()
     LoadLibraryA(0);
     GetProcAddress(0, 0);
 
-    char* path = L"D:\\sahar_stuff\\sahar_ex_22\\shellcode_msgbox";
+    char* path = L"PATH";
 
 	HANDLE hFile = CreateFileW(path, GENERIC_ALL, 0, NULL, OPEN_EXISTING, 0, NULL);
 
