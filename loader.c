@@ -8,7 +8,7 @@ int main()
     LoadLibraryA(0);
     GetProcAddress(0, 0);
 
-    char* path = L"PATH";
+    char* path = L"PATH"; // Change this to the shellcode file's path
 
 	HANDLE hFile = CreateFileW(path, GENERIC_ALL, 0, NULL, OPEN_EXISTING, 0, NULL);
 
